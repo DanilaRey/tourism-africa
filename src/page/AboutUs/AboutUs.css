@@ -1,0 +1,219 @@
+.app__about {
+    width: 100%;
+}
+.app__about_travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__about_travel-left {
+ margin-left: 10%;
+}
+
+.app__about_travel-left h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+}
+
+.app__about_travel-left-subtitle {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #515151;
+    margin: 40px 0;
+}
+
+.app__about_travel_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__about_travel_info-item span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.008em;
+    color: #9A9AB0;
+}
+
+.app__about_travel_info-item p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.app__about_travel-right img {
+    width: 600px;
+}
+
+.btn__about  {
+    background: var(--color-green);
+    color: white;
+    padding: 18px 34px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn__about:hover {
+    cursor: pointer;
+}
+
+
+/* Welcome */
+
+.app__about_welcome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.app__about_welcome-head h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.003em;
+    color: #11142D;
+}
+.app__about_welcome_content {
+    max-width: 75%;
+
+}
+.app__about_welcome_content-item {
+    display: flex;
+    margin: 50px;
+}
+.app__about_welcome_content-item img {
+    width: 420px;
+}
+.app__about_welcome_content-item img:nth-child(odd) {
+    margin-right: 30px;
+}
+.app__about_welcome_content-item img:nth-child(even) {
+    margin-left: 30px;
+}
+.app__about_welcome_content-item p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    width: 400px;
+    letter-spacing: 0.005em;
+    color: #515151;
+}
+
+@media screen and (max-width: 1400px) {
+    .app__about_travel-right img {
+        width: 400px;
+    }
+    .app__about_travel-left h1 {
+        font-size: 52px;
+    }
+    .app__about_travel-left-subtitle {
+        font-size: 22px;
+    }
+    .app__about_travel_info-item {
+        margin-right: 20px;
+    }
+    .app__about_travel_info {
+        flex-wrap: wrap-reverse;
+    }
+    .btn__about {
+        margin: 8px 0;
+    }
+    .app__about_welcome_content {
+        max-width: 100%;
+    
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .app__about_travel-right img {
+        width: 300px;
+    }
+    .app__about_travel-left h1 {
+        font-size: 42px;
+    }
+    .app__about_travel-left-subtitle {
+        font-size: 20px;
+    }
+    .app__about_travel_info-item {
+        margin-right: 1px;
+    }
+    .app__about_travel_info-item p {
+        font-size: 18px;
+        margin-right: 16px;
+    }
+    .btn__about {
+        padding: 14px 28px;
+        font-size: 12px;
+    }
+    .app__about_travel-left {
+        margin-left:  5%;
+    }
+    .app__about_welcome_content-item:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .app__about_welcome_content-item {
+        flex-direction: column;
+    }
+    .app__about_welcome_content-item img:nth-child(even) {
+        margin-left: 0px;
+    }
+    .app__about_welcome_content-item p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .app__about_welcome_content-item img {
+        width: 100%;
+    }
+    .app__about_welcome-head h2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app__about_travel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__about_travel_info-item p{
+        font-size: 16px;
+    }
+    .app__about_travel_info-item span {
+        font-size: 14px;
+    }
+    .app__about_travel-left {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .app__about_travel-left h1 {
+        font-size: 32px;
+    }
+}

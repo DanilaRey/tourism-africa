@@ -1,0 +1,65 @@
+*{
+    font-family: 'Lora';
+    font-style: normal;
+}
+.app__header_top {
+    background: url(../../assets/bgr.jpg) no-repeat;
+    width: 100%;
+    height: 468px;
+    color: white;
+    background-size: cover; 
+    background-position:  center;
+}
+
+.app__header_top-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__header_top-content-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+}
+
+.app__header_top-content_subtitle {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+.app__header_top-content_subtitle p {
+    margin-right: 10px;
+}
+
+.app__header_top-content_subtitle span{
+    color: var(--color-green);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+}
+
+.app__tour-travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 460px) {
+    .app__header_top-content-title {
+        font-size: 52px;
+    }
+    .app__header_top-content_subtitle {
+        font-size: 24px;
+    }
+    .app__header_top-content_subtitle span {
+        font-size: 24px;
+    }
+}

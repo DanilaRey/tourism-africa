@@ -1,0 +1,158 @@
+.app__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #304F47;
+    color: #fff;
+}
+
+.app__footer_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.app__footer_container-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__footer_title {
+    margin-bottom: 25px;
+}
+
+.app__footer_title h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    margin: 30px 0;
+}
+.app__footer_title span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+}
+
+.app__footer_contact {
+    margin-bottom: 40px;
+    padding: 15px 0;
+}
+
+.app__footer_contact p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+}
+
+.app__footer_subscribe p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.app__footer_subscribe-form {
+    display: flex;
+    align-items: center;
+}
+.app__footer_subscribe-form input {
+    margin-right: 25px;
+    padding: 17px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.app__footer_container-block_logo {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.app__footer-article {
+    margin-bottom: 80px;
+}
+.app__footer-article p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+}
+
+.app__footer_links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.app__footer-links-block {
+    margin-right: 80px;
+}
+
+.app__footer-links-block  p {
+    margin: 12px 0;
+}
+.app__footer-links-block  p:hover {
+    cursor: pointer;
+}
+
+.app__footer-company {
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .app__footer_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 499px) {
+    .app__footer_container {
+        display: flex;  
+        /* align-items: flex-start; */
+    }
+    .app__footer_title h2 {
+        font-size: 30px;
+    }
+    .app__footer_subscribe-form input {
+        padding: 17px;
+        width: 200px;
+    }
+    .app__footer_title span { 
+        font-size: 16px;
+    }
+    .app__footer_contact p {
+        font-size: 16px;
+    }
+    .app__footer-links-block {
+        margin: 0 26px;
+    }
+    .app__footer_container-block_logo {
+        justify-content: space-around;
+    }
+    .app__footer-article {
+        margin: 0 3px 80px 15px;
+    }
+}
